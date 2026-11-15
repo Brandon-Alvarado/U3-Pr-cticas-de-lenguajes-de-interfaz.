@@ -11,15 +11,15 @@
 * **Descripción:** Uso de procedimientos en lenguaje ensamblador, demostrando cómo se pueden llamar y retornar de ellos[cite: 5].
 * **Comprobación:** Se ejecuta el programa y se observa que se imprimen los mensajes de inicio, dentro del procedimiento y fin del programa en el orden correcto, confirmando que los procedimientos funcionan correctamente[cite: 5].
 
-## 3. Parámetros por pila y limpieza
-* **Archivo:** [`Parametros_Limpieza.asm`](./Parametros_Limpieza.asm)
-* **Descripción:** Demuestra el uso de parámetros pasados por pila y la limpieza de la misma[cite: 4].
-* **Comprobación:** Al depurar, se observa que `EAX = 75` y `EBX` sigue valiendo `999`[cite: 4].
-
 ## 2. Validación de cadena vacía
 * **Archivo:** [`Cadena_Vacia.asm`](./Cadena_Vacia.asm)
 * **Descripción:** Solicita al usuario que ingrese una cadena de texto y luego verifica si la cadena está vacía o no[cite: 1]. Si la cadena está vacía, se muestra el mensaje `"VACIA"`; de lo contrario, se muestra `"NO VACIA"`[cite: 1].
 * **Comprobación:** Se ejecuta el programa y se ingresa una cadena de texto[cite: 1]. Si la cadena está vacía, se muestra el mensaje `"VACIA"`; de lo contrario, se muestra `"NO VACIA"`[cite: 1].
+  
+## 3. Parámetros por pila y limpieza
+* **Archivo:** [`Parametros_Limpieza.asm`](./Parametros_Limpieza.asm)
+* **Descripción:** Demuestra el uso de parámetros pasados por pila y la limpieza de la misma[cite: 4].
+* **Comprobación:** Al depurar, se observa que `EAX = 75` y `EBX` sigue valiendo `999`[cite: 4].
 
 ## 4. Direcciones de retorno
 * **Archivo:** [`direcciones de retorno.asm`](./direcciones%20de%20retorno.asm)
